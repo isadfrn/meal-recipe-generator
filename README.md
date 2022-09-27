@@ -12,7 +12,7 @@ This is a meal generator that uses [TheMealDB API](https://www.themealdb.com/).
 
 ## Run
 
-Open the [index.html](./index.html) file on [VSCode Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
+Install [Live Server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer), right click on `index.html` file and then click on `Open with Live Server`.
 
 ### Status
 
