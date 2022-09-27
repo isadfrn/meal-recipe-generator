@@ -1,0 +1,190 @@
+:root {
+  --main-bg-light-color: #00b4d8;
+  --main-bg-dark-color: #028fac;
+  --main-light-color: #f1f1f1;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  padding: 2rem;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 1.6em;
+  margin: 1rem 0;
+}
+
+header button {
+  font-size: 1em;
+  padding: 0.4rem 0.8rem;
+  margin: 1rem 0;
+  background-color: var(--main-bg-light-color);
+  color: var(--main-light-color);
+  border: none;
+  border-radius: 0.6rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+header button:hover {
+  background-color: var(--main-bg-dark-color);
+  cursor: pointer;
+}
+
+.meal__container {
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.meal__info {
+  text-align: center;
+}
+
+.meal__name {
+  margin: 0.5rem 0;
+  font-size: 1.2em;
+}
+
+.meal__tags {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.meal__tags h3 {
+  color: #028fac;
+  font-size: 0.8em;
+}
+
+.meal__info img {
+  max-width: 16rem;
+}
+
+.meal__list {
+  list-style: none;
+  margin: 1rem 0;
+}
+
+.meal__ingredients li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.8em;
+}
+
+.meal__howto {
+  margin: 1.4rem 0;
+  text-align: justify;
+  font-size: 0.8em;
+}
+
+.get-in-touch__button {
+  background: none;
+  border: none;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  cursor: pointer;
+  margin: 3rem 2rem;
+}
+
+.get-in-touch__container {
+  display: flex;
+}
+
+.get-in-touch__card {
+  border: 3px solid var(--main-bg-light-color);
+  background-color: var(--main-light-color);
+  border-radius: 0.4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  margin: 5.5rem 2rem;
+  transition: all 100ms linear;
+}
+
+.get-in-touch__container span {
+  color: var(--main-bg-light-color);
+  padding-top: 1rem;
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+.social-icons {
+  padding: 1rem;
+}
+
+.icons-color {
+  fill: var(--main-bg-light-color);
+  width: 2rem;
+  height: 2rem;
+  margin: 0 0.2rem;
+}
+
+.info-color {
+  fill: var(--main-bg-light-color);
+}
+
+footer {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 0;
+  width: 100vw;
+  background-color: var(--main-bg-light-color);
+  color: var(--main-light-color);
+  text-align: center;
+  padding: 0.4rem 1rem;
+  font-size: 1em;
+}
+
+.text a {
+  color: var(--main-light-color);
+  text-decoration: underline;
+}
+
+@media (min-width: 600px) {
+  main {
+    padding: 2rem 8rem;
+  }
+
+  .meal__tags {
+    flex-direction: row;
+  }
+
+  .meal__tags h3 {
+    padding: 0 0.6rem 0 0.6rem;
+  }
+
+  .meal__ingredients li {
+    font-size: 1.1em;
+  }
+
+  .meal__howto {
+    font-size: 1.1em;
+  }
+}
