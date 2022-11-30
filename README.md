@@ -4,7 +4,7 @@
 ![Repository size](https://img.shields.io/github/repo-size/isadfrn/meal-recipe-generator?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/isadfrn/meal-recipe-generator?style=flat-square)
 
-![This project running, a person clicking on Try a new meal button and gets a random recipe](./assets/image/demo.gif)
+![This project running, a person clicking on Try a new meal button and gets a random recipe](./assets/img/demo.gif)
 
 ## About
 
@@ -16,7 +16,7 @@ Install [Live Server extension](https://marketplace.visualstudio.com/items?itemN
 
 ### Status
 
-Done ✅
+Finished 🛑
 
 ## License
 
